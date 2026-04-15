@@ -25,7 +25,7 @@ export default function ContactForm() {
     const body = encodeURIComponent(
       `Name: ${form.name}\nPhone: ${form.phone}\nVehicle: ${form.vehicle}\nMessage: ${form.message}`
     );
-    window.location.href = `mailto:extremeautoclean@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:extremecleanauto@gmail.com?subject=${subject}&body=${body}`;
     setSubmitted(true);
   }
 

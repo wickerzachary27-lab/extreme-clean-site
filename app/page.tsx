@@ -304,7 +304,7 @@ export default function Home() {
                 READY TO BOOK?
               </h2>
               <p className="mb-8 text-lg text-white/60">
-                Call or text Trina directly.
+                Call or text Katrina directly.
               </p>
               <div className="flex flex-col gap-6">
                 <a
