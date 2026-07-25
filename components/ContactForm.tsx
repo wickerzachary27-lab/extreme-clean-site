@@ -31,10 +31,35 @@ export default function ContactForm() {
 
   if (submitted) {
     return (
-      <div className="flex min-h-[300px] items-center justify-center">
+      <div className="flex min-h-[300px] flex-col items-center justify-center text-center">
         <p className="font-display text-3xl tracking-wider text-gold">
-          We&apos;ll be in touch soon!
+          Almost there — press send.
         </p>
+        <p className="mt-4 max-w-md text-sm text-white/60">
+          Your email app should have opened with your message ready to go. If
+          it didn&apos;t, email us at{" "}
+          <a
+            href="mailto:extremecleanauto@gmail.com"
+            className="text-gold underline underline-offset-4"
+          >
+            extremecleanauto@gmail.com
+          </a>{" "}
+          or call{" "}
+          <a
+            href="tel:+15415562832"
+            className="text-gold underline underline-offset-4"
+          >
+            (541) 556-2832
+          </a>
+          .
+        </p>
+        <button
+          type="button"
+          onClick={() => setSubmitted(false)}
+          className="mt-6 text-xs font-bold uppercase tracking-widest text-white/60 transition-colors hover:text-gold"
+        >
+          Start over
+        </button>
       </div>
     );
   }
@@ -81,6 +106,13 @@ export default function ContactForm() {
       >
         Send Message
       </button>
+      <p className="text-center text-xs text-white/40">
+        Opens your email app. Prefer to talk? Call{" "}
+        <a href="tel:+15415562832" className="text-white/70 hover:text-gold">
+          (541) 556-2832
+        </a>
+        .
+      </p>
     </form>
   );
 }
