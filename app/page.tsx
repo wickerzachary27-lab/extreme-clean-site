@@ -111,7 +111,7 @@ export default function Home() {
       {/* ===== HERO ===== */}
       <section id="hero" className="relative flex min-h-screen items-center">
         <Image
-          src="https://images.unsplash.com/photo-1507136566006-cfc505b114fc?w=1800&q=80"
+          src="/images/hero-detailed-car.jpg"
           alt="Freshly detailed dark car with ceramic coating shine"
           fill
           priority

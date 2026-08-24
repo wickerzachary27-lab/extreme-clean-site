@@ -69,7 +69,7 @@ export default function BeforeAfterSlider() {
       {/* After image (full width, behind) */}
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?w=1400&q=80"
+          src="/images/slider-after-detailing.jpg"
           alt="After detailing — gleaming car"
           fill
           className="object-cover"
@@ -86,7 +86,7 @@ export default function BeforeAfterSlider() {
         style={{ width: `${position}%` }}
       >
         <Image
-          src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=1400&q=80"
+          src="/images/slider-before-detailing.jpg"
           alt="Before detailing — dirty car"
           fill
           className="object-cover"
